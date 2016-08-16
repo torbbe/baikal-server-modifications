@@ -19,6 +19,6 @@ Location of the file
 
 > baikal/vendor/sabre/dav/lib/CalDAV/Schedule/IMipPlugin.php 
 
-Change `'From: ' . $senderAddress,` line in `$headers = [` section:
+Change `'From: ' . $this->senderEmail,` line in `$headers = [` section:
 
     'From: ' . $sender,
