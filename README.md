@@ -7,7 +7,7 @@ Location of the file
 
 > baikal/Core/Frameworks/Baikal/Core/Server.php
 
-Activation the schedule plugin by adding following line:
+Activation the schedule plugin by adding following lines:
 
     $this->server->addPlugin(new \Sabre\CalDAV\Schedule\Plugin());
     $this->server->addPlugin(new \Sabre\CalDAV\Schedule\IMipPlugin('no-reply@example.com'));
